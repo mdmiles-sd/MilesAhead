@@ -7,14 +7,15 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.BeneficiaryModels
 {
-    class BeneficiaryList
-    {                       
+    class BeneficiaryDetailList
+    {        
+        public int BeneficiaryID { get; set; }
+        
         public string FirstName { get; set; }
         
         public string LastName { get; set; }
-        
+
         public Relationship Relationship { get; set; }
-        
         public int PhoneNumber { get; set; }
     }
 }

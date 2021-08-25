@@ -8,12 +8,8 @@ namespace MilesAhead.Models.BasicHealthQuestionModels
 {
     class BasicHealthQuestionList
     {        
-        public int BasicHealthQuestionID { get; set; }
-        
-        public bool IsTakingMedication { get; set; }
-        
-        public bool IsDiabetic { get; set; }
-        
+        public int BasicHealthQuestionID { get; set; }        
+       
         public bool IsSmoker { get; set; }
     }
 }

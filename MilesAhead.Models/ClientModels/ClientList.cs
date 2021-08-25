@@ -9,26 +9,15 @@ namespace MilesAhead.Models.ClientModels
 {
     class ClientList
     {        
-        public int ClientID { get; set; }
-        
-        public Guid OwnerID { get; set; }
-        
-        public string FirstName { get; set; }
-        
-        public string LastName { get; set; }
-        
-        public DateTime BirthDate { get; set; }
-        
-        public int Age { get; set; }
-        
-        public float Height { get; set; }
-        
-        public float Weight { get; set; }
-        
-        public Sex Sex { get; set; }
-        
+        public int ClientID { get; set; }        
+        public Guid OwnerID { get; set; }        
+        public string FirstName { get; set; }        
+        public string LastName { get; set; }        
+        public DateTime BirthDate { get; set; }        
+        public int Age { get; set; }        
+        public Sex Sex { get; set; }        
         public DateTimeOffset InitalCreateUTC { get; set; }
-        public DateTimeOffset? EditUTC { get; set; }     
+           
     
         
     }

@@ -20,10 +20,11 @@ namespace MilesAhead.Data
         public int InsurancePolicyID { get; set; }
         [Required]
         public decimal CoverageAmount { get; set; }
+        [Required]
         public TypeOfPolicy TypeOfPolicy { get; set; }
 
         [ForeignKey("Client")]
-        public int? ClientID { get; set; }
+        public int ClientID { get; set; }
         public virtual Client Client { get; set; }
     }
 }

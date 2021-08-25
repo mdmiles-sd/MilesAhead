@@ -18,17 +18,24 @@ namespace MilesAhead.Data
     {
         [Key]
         public int ClientID { get; set; }
-        public Guid OwnerID { get; set; }
 
         [Required]
+        public Guid OwnerID { get; set; }
+        [Required]
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
+        [Required]
         public DateTime BirthDate { get; set; }
+        [Required]
         public int Age { get; set; }
+        [Required]
         public float Height { get; set; }
+        [Required]
         public float Weight { get; set; }
+        [Required]
         public Sex Sex { get; set; }
-
+        [Required]
         public DateTimeOffset InitalCreateUTC { get; set; }
         public DateTimeOffset? EditUTC { get; set; }
 

@@ -27,8 +27,11 @@ namespace MilesAhead.Data
         public int BeneficiaryID { get; set; }
         [Required]
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
+        [Required]
         public Relationship Relationship { get; set; }
+        [Required]
         public int PhoneNumber { get; set; }
     }
 }

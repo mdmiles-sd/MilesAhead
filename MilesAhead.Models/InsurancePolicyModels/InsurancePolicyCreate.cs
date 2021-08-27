@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models
 {
-    class InsurancePolicyCreate
+    public class InsurancePolicyCreate
     {
         public decimal CoverageAmount { get; set; }
         

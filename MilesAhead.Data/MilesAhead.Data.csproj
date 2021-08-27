@@ -106,12 +106,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MilesAhead.Service\MilesAhead.Services.csproj">
-      <Project>{7a7dbc06-9093-4322-ae1c-76f5a52201b0}</Project>
-      <Name>MilesAhead.Services</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\202108240230021_update1.resx">
       <DependentUpon>202108240230021_update1.cs</DependentUpon>
     </EmbeddedResource>

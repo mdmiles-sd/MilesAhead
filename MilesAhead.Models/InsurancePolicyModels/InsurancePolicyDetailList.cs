@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.InsurancePolicyModels
 {
-    class InsurancePolicyDetailList
+    public class InsurancePolicyDetailList
     {        
         public int InsurancePolicyID { get; set; }
         

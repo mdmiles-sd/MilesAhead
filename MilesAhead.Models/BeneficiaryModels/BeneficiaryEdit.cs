@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.BeneficiaryModels
 {
-    class BeneficiaryEdit
-    {        
+   public class BeneficiaryEdit
+    {
+        public int BeneficiaryID { get; set; }
         public string FirstName { get; set; }
         
         public string LastName { get; set; }

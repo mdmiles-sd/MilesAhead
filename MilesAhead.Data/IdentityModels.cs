@@ -35,6 +35,11 @@ namespace MilesAhead.Data
         }
         
         public DbSet<Client> Clients { get; set; }
+        public DbSet<ContactInfo> ContactInfos { get; set; }
+        public DbSet<BasicHealthQuestion> BasicHealthQuestions { get; set; }
+        public DbSet<InsurancePolicy> InsurancePolicies { get; set; }
+        public DbSet<Beneficiary> Beneficiaries { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder

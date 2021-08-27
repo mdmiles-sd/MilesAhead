@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.ContactInfoModels
 {
-    class ContactInfoEdit
-    {                
+   public class ContactInfoEdit
+    {
+        public int ContactInfoID { get; set; }
         public string Address { get; set; }
         
         public string City { get; set; }

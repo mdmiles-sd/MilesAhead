@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.ClientModels
 {
-    class ClientDetail
+   public class ClientDetail
     {        
         public int ClientID { get; set; }
         

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.ContactInfoModels
 {
-    class ContactInfoDetailList
+    public class ContactInfoDetailList
     {        
         public int ContactInfoID { get; set; }
         

@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.InsurancePolicyModels
 {
-    class InsurancePolicyEdit
-    {               
+    public class InsurancePolicyEdit
+    {
+        public int InsurancePolicyID { get; set; }
         public decimal CoverageAmount { get; set; }
         
         public TypeOfPolicy TypeOfPolicy { get; set; }

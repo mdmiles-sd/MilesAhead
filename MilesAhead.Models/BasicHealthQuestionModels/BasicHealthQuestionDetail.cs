@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MilesAhead.Models.BasicHealthQuestionModels
 {
-    class BasicHealthQuestionDetail
+    public class BasicHealthQuestionDetail
     {
 
         public int BasicHealthQuestionID { get; set; }

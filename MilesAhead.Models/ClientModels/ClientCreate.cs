@@ -9,6 +9,7 @@ namespace MilesAhead.Models
 {
     public class ClientCreate
     {
+        public int ClientID { get; set; }
         public string FirstName { get; set; }
 
         public string LastName { get; set; }

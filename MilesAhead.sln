@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesAhead.Data", "MilesAhe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesAhead.Models", "MilesAhead.Models\MilesAhead.Models.csproj", "{95CBF9B2-515C-46B0-8651-01BC03AC4F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesAhead.Services", "MilesAhead.Service\MilesAhead.Services.csproj", "{7A7DBC06-9093-4322-AE1C-76F5A52201B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesAhead.Servies", "MilesAhead.Servies\MilesAhead.Servies.csproj", "{721DC11A-38C1-4555-B137-9C7175E36FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{95CBF9B2-515C-46B0-8651-01BC03AC4F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CBF9B2-515C-46B0-8651-01BC03AC4F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CBF9B2-515C-46B0-8651-01BC03AC4F31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A7DBC06-9093-4322-AE1C-76F5A52201B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A7DBC06-9093-4322-AE1C-76F5A52201B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A7DBC06-9093-4322-AE1C-76F5A52201B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A7DBC06-9093-4322-AE1C-76F5A52201B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721DC11A-38C1-4555-B137-9C7175E36FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721DC11A-38C1-4555-B137-9C7175E36FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721DC11A-38C1-4555-B137-9C7175E36FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721DC11A-38C1-4555-B137-9C7175E36FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

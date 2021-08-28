@@ -192,6 +192,14 @@
     <Compile Include="Migrations\202108252151518_update6.Designer.cs">
       <DependentUpon>202108252151518_update6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108272133376_update7.cs" />
+    <Compile Include="Migrations\202108272133376_update7.Designer.cs">
+      <DependentUpon>202108272133376_update7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108281618507_lastupdate.cs" />
+    <Compile Include="Migrations\202108281618507_lastupdate.Designer.cs">
+      <DependentUpon>202108281618507_lastupdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -255,14 +263,34 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\HealthQuestion\Index.cshtml" />
+    <Content Include="Views\Client\Index.cshtml" />
+    <Content Include="Views\Beneficiary\Index.cshtml" />
+    <Content Include="Views\InsurancePolicy\Index.cshtml" />
+    <Content Include="Views\ContactInfo\Index.cshtml" />
+    <Content Include="Views\InsurancePolicy\Details.cshtml" />
+    <Content Include="Views\InsurancePolicy\Delete.cshtml" />
+    <Content Include="Views\InsurancePolicy\Edit.cshtml" />
+    <Content Include="Views\InsurancePolicy\Create.cshtml" />
+    <Content Include="Views\HealthQuestion\Create.cshtml" />
+    <Content Include="Views\HealthQuestion\Details.cshtml" />
+    <Content Include="Views\HealthQuestion\Edit.cshtml" />
+    <Content Include="Views\HealthQuestion\Delete.cshtml" />
+    <Content Include="Views\ContactInfo\Create.cshtml" />
+    <Content Include="Views\ContactInfo\Details.cshtml" />
+    <Content Include="Views\ContactInfo\Edit.cshtml" />
+    <Content Include="Views\ContactInfo\Delete.cshtml" />
+    <Content Include="Views\Client\Create.cshtml" />
+    <Content Include="Views\Client\Details.cshtml" />
+    <Content Include="Views\Client\Edit.cshtml" />
+    <Content Include="Views\Client\Delete.cshtml" />
+    <Content Include="Views\Beneficiary\Create.cshtml" />
+    <Content Include="Views\Beneficiary\Details.cshtml" />
+    <Content Include="Views\Beneficiary\Edit.cshtml" />
+    <Content Include="Views\Beneficiary\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Beneficiary\" />
-    <Folder Include="Views\Client\" />
-    <Folder Include="Views\ContactInfo\" />
-    <Folder Include="Views\HealthQuestion\" />
-    <Folder Include="Views\InsurancePolicy\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -286,6 +314,10 @@
       <Project>{95cbf9b2-515c-46b0-8651-01bc03ac4f31}</Project>
       <Name>MilesAhead.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MilesAhead.Servies\MilesAhead.Servies.csproj">
+      <Project>{721DC11A-38C1-4555-B137-9C7175E36FCD}</Project>
+      <Name>MilesAhead.Servies</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202108251351061_udate5.resx">
@@ -293,6 +325,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108252151518_update6.resx">
       <DependentUpon>202108252151518_update6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108272133376_update7.resx">
+      <DependentUpon>202108272133376_update7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108281618507_lastupdate.resx">
+      <DependentUpon>202108281618507_lastupdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

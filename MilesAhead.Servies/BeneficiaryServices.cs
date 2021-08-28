@@ -18,7 +18,7 @@ namespace MilesAhead.Servies
             _userId = userId;
         }
 
-        public IEnumerable<BeneficiaryDetailList> GetBeneficiayDetailLists()
+        public IEnumerable<BeneficiaryDetailList> GetBeneficiaryDetailLists()
         {
             using (var ctx = new ApplicationDbContext())
             {

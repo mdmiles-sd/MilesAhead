@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace MilesAhead.Models.BasicHealthQuestionModels
 {
     public class BasicHealthQuestionEdit
-    {                
+    {
+        public int BasicHealthQuestionID { get; set; }
         public bool IsTakingMedication { get; set; }        
         public bool IsDiabetic { get; set; }        
         public bool IsSmoker { get; set; }

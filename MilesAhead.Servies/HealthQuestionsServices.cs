@@ -78,34 +78,34 @@ namespace MilesAhead.Servies
             }
         }
 
-        public bool UpdateClient(ClientEdit model)
+        public bool UpdateBasicHealthQuestion(BasicHealthQuestionEdit model)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
-                        .Clients
-                        .SingleOrDefault(e => e.ClientID == model.ClientID && e.OwnerID == _userId);
+                        .BasicHealthQuestions
+                        .SingleOrDefault(e => e.BasicHealthQuestionID == model.BasicHealthQuestionID );
 
-                entity.FirstName = model.FirstName;
-                entity.LastName = model.LastName;
-                entity.Height = model.Height;
-                entity.Weight = model.Weight;
+                entity.IsTakingMedication = model.IsTakingMedication;
+                entity.IsSmoker = model.IsSmoker;
+                entity.IsDiabetic = model.IsDiabetic;
+                
 
                 return ctx.SaveChanges() == 1;
             }
         }
 
-        public bool DeleteClient(int clientID)
+        public bool DeleteBasicHealthQuestion(int BasicHealthQuestionID)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
-                        .Clients
-                        .SingleOrDefault(e => e.ClientID == clientID && e.OwnerID == _userId);
+                        .BasicHealthQuestions
+                        .SingleOrDefault(e => e.BasicHealthQuestionID == BasicHealthQuestionID);
 
-                ctx.Clients.Remove(entity);
+                ctx.BasicHealthQuestions.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
             }

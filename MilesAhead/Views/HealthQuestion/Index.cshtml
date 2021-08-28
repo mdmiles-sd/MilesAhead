@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MilesAhead.Models.BasicHealthQuestionModels.BasicHealthQuestionList>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BasicHealthQuestionID)  
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsSmoker) 
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BasicHealthQuestionID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsSmoker)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.BasicHealthQuestionID  }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BasicHealthQuestionID  }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.BasicHealthQuestionID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,50 @@
+﻿@model MilesAhead.Models.BasicHealthQuestionModels.BasicHealthQuestionDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BasicHealthQuestionDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BasicHealthQuestionID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BasicHealthQuestionID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsTakingMedication)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsTakingMedication)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDiabetic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDiabetic)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsSmoker)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsSmoker)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

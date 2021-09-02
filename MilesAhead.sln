@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesAhead.Models", "MilesA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesAhead.Servies", "MilesAhead.Servies\MilesAhead.Servies.csproj", "{721DC11A-38C1-4555-B137-9C7175E36FCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C9DCFEF-3739-4C73-871F-7008A9707796}"
+	ProjectSection(SolutionItems) = preProject
+		images\images.jpg = images\images.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
